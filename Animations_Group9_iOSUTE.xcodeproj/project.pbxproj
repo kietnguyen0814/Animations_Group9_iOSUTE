@@ -14,6 +14,8 @@
 		3E29B6131E9E7B9200D9ADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E29B6111E9E7B9200D9ADED /* LaunchScreen.storyboard */; };
 		3E29B61E1E9E7B9200D9ADED /* Animations_Group9_iOSUTETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B61D1E9E7B9200D9ADED /* Animations_Group9_iOSUTETests.swift */; };
 		3E29B6291E9E7B9200D9ADED /* Animations_Group9_iOSUTEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B6281E9E7B9200D9ADED /* Animations_Group9_iOSUTEUITests.swift */; };
+		3E29B6371E9E7C0000D9ADED /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B6361E9E7C0000D9ADED /* ButtonViewController.swift */; };
+		3E29B6391E9E7DCE00D9ADED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E29B6381E9E7DCE00D9ADED /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3E29B6241E9E7B9200D9ADED /* Animations_Group9_iOSUTEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animations_Group9_iOSUTEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E29B6281E9E7B9200D9ADED /* Animations_Group9_iOSUTEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations_Group9_iOSUTEUITests.swift; sourceTree = "<group>"; };
 		3E29B62A1E9E7B9200D9ADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E29B6361E9E7C0000D9ADED /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		3E29B6381E9E7DCE00D9ADED /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3E29B60F1E9E7B9200D9ADED /* Assets.xcassets */,
 				3E29B6111E9E7B9200D9ADED /* LaunchScreen.storyboard */,
 				3E29B6141E9E7B9200D9ADED /* Info.plist */,
+				3E29B6361E9E7C0000D9ADED /* ButtonViewController.swift */,
+				3E29B6381E9E7DCE00D9ADED /* TableViewController.swift */,
 			);
 			path = Animations_Group9_iOSUTE;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E29B60B1E9E7B9200D9ADED /* ViewController.swift in Sources */,
+				3E29B6371E9E7C0000D9ADED /* ButtonViewController.swift in Sources */,
 				3E29B6091E9E7B9200D9ADED /* AppDelegate.swift in Sources */,
+				3E29B6391E9E7DCE00D9ADED /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
